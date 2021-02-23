@@ -1,0 +1,12 @@
+# Print results
+                for c in det[:, -1].unique():
+                    n = (det[:, -1] == c).sum()  # detections per class
+                    s += '%g, %ss, ' % (n, names[int(c)])  # add to string
+
+                    n1 = (det[:, -1] == 0).sum()
+                    n2 = (det[:, -1] == 1).sum()
+
+                   
+                    Data = {'Empty': [n1.tolist()],'Occupied': [n2.tolist()]}
+                    df = DataFrame(Data)
+                    df.to_csv('parking.csv')

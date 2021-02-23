@@ -1,0 +1,22 @@
+ # Print results
+                emptycount=0
+                occucount=0
+                for c in det[:, -1].unique():
+                    n = (det[:, -1] == c).sum()  # detections per class
+                    s += f"{n} {names[int(c)]}{'s' * (n > 1)}, "  # add to string
+                    type1=c.tolist()
+                    type1=int(type1)
+                    
+                    typelist=[int(x) for x in str(type1)]
+                    count=n.tolist()
+                    countlist = [int(x) for x in str(count)]
+                    if(typelist[0]==0):
+                      emptycount=countlist[0]
+                    else:  
+                      occucount=countlist[0]
+                from pandas import DataFrame
+                    
+                Data = {'Empty': [str(emptycount)],'Occupied': [str(occucount)]}
+
+                df = DataFrame(Data)
+                df.to_csv('parking.csv')    
