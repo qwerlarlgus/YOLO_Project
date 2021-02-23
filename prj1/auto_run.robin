@@ -4,7 +4,7 @@ System.GetEnvironmentVariable \
     
 set pythonPath to 'C:\\Users\\'+UserName+'\\anaconda3\\python.exe'
 
-set workDir to 'C:\\Users\\user\\Desktop\\prj1'
+set workDir to 'C:\\Users\\st\\Desktop\\prj1'
 
 set pyScript1 to workDir +'\\free_space.py '
 set pyScript2 to workDir +'\\entry_exit.py '
@@ -23,6 +23,7 @@ console.Write Message: StandardOutput1
 Console.Write Message: 'stderr (if any): '+ StandardError
 Console.Write Message: 'exit code (if any): ' + ExitCode
 Console.Write Message: ''
+
 wait 3
 
 System.RunDOSCommand \
@@ -39,6 +40,7 @@ Console.Write Message: 'exit code (if any): ' + ExitCode
 Console.Write Message: ''
 
 wait 3
+
 System.RunDOSCommand \
     DOSCommandOrApplication: pythonPath + ' ' + pyScript3+StandardOutput1+StandardOutput2\
     WorkingDirectory: workDir \
