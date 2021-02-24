@@ -67,7 +67,7 @@ while True:
 
     # Extract Region of interest
     #roi = frame[100: 200, 50: 150] # Y, X  28 93 79 50 [175: 300, 375: 500]
-    roi = frame[175: 300, 375: 500] # Y, X
+    roi = frame[105: 200, 375: 500] # Y, X
     #roi = frame[10: 400, 10: 600]
 
 
@@ -104,7 +104,7 @@ while True:
     cv2.imshow("Frame", frame)
     cv2.imshow("Mask", mask)
 
-    key = cv2.waitKey(30)
+    key = cv2.waitKey(10)
     if key == 27:
         break
 

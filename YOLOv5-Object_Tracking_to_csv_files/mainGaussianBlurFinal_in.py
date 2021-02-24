@@ -104,7 +104,7 @@ while True:
     cv2.imshow("Frame", frame)
     cv2.imshow("Mask", mask)
 
-    key = cv2.waitKey(30)
+    key = cv2.waitKey(10)
     if key == 27:
         break
 
