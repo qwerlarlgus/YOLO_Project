@@ -9,14 +9,19 @@ YOLOv5 (Transfer learning freeze = [], range24)
 
 ## 2. Project1 이름
 YOLOv5 Object Tracking YOLOv5로 주차장 입출 카운트
+
 Detect_Dashboard를 사용하여 시각적 표현Image Classification
 
 -------------------------------------
 예EX)
 구동환경(OS): Ubuntu, Windows
+
 개발환경: Colab(Google), VScode(Python ver.3.8.X)
+
 Algorithms: Object Detection & Tracking, YOLOv5, YOLOv4(Darknet), YOLOv4 Tiny
+
 프로그램: Pytorch, OpenCV, ROBIN(RPA)
+
 ## Project
 Object_detection, Object)tracking
 
