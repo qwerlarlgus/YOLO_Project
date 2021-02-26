@@ -1,4 +1,4 @@
-# 프로젝트 업데이트 2021-02-18
+# 프로젝트 업데이트 2021-02-26
 
 ## 1. YOLO 모델 선정
 
@@ -11,6 +11,10 @@ YOLOv5 (Transfer learning freeze = [], range24)
 YOLOv5 Object Tracking로 주차장 입출 카운트
 
 Detect_Dashboard를 사용하여 시각적 표현 Image Classification
+
+## 3. YOLOv5 Parking_Lot object Detection & Object Tracking
+
+
 
 -------------------------------------
 EX)
