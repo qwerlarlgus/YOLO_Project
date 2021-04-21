@@ -17,6 +17,7 @@ Detect_Dashboard를 사용하여 시각적 표현 Image Classification
 
 
 -------------------------------------
+
 EX)
 구동환경(OS): Ubuntu, Windows
 
@@ -28,22 +29,6 @@ Algorithms: Object Detection & Tracking, YOLOv5, YOLOv4(Darknet), YOLOv4 Tiny
 
 ## Project
 Object_detection, Object_tracking
-
-## My Part
-
-Parking_Lot_perspective
-
-Parking_Lot_perspective1
-
-### https://url.kr/tfa5rd
-
-grabCut(배경제거)
-
-grabCut1(배경제거1)
-
-주차장 입출 나눠서 임포트하고
-반복문 연속으로 넣고  100앞에 변수 넣고 대시보드에 임포트해서
-c, d = entry_exit.entry_exit() 선언 하고 실행
 
 -------------------------------------
 
